@@ -20,13 +20,15 @@ Using
 To use the program, you must specify the name of the operation and pass a string.
 ***
 For encoding:
-   ### python main.py encoding one_word
-   ### python main.py -e one_word
-   ### python main.py encoding "your_text"   
+---
+    python main.py encoding one_word
+    python main.py -e one_word
+    python main.py encoding "your_text"   
 For decoding:
-   ### python main.py decoding one_word
-   ### python main.py -d one_word
-   ### python main.py decoding "your_text"
+---
+    python main.py decoding one_word
+    python main.py -d one_word
+    python main.py decoding "your_text"
 
 
 File name       | Content
