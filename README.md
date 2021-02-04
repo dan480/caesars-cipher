@@ -3,6 +3,7 @@ Caesar cipher
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dan480/caesars-cipher/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dan480/caesars-cipher/?branch=master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/dan480/caesars-cipher/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 [![Build Status](https://scrutinizer-ci.com/g/dan480/caesars-cipher/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dan480/caesars-cipher/build-status/master)
+[![Build Status](https://travis-ci.org/dan480/caesars-cipher.svg?branch=master)](https://travis-ci.org/dan480/caesars-cipher)
 
 
 Description
