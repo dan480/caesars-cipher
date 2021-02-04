@@ -1,14 +1,17 @@
-key = -2
-
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 
 def decoding_func(string, alphabet, key):
-    al = alphabet
-    al_encod = al[key:] + al[:key]
+    alphabet_encod = alphabet[key:] + alphabet[:key]
     str_out = ''
     for i in string:
-        if i not in al:
+        if i.lower() not in alphabet:
             str_out += i
         else:
-            ch = al_encod.index(i.lower())
-            str_out += str(al[ch])
+            if i.isupper():
+                ch = alphabet_encod.index(i.lower())
+                str_out += str(alphabet[ch]).upper()
+            else:
+                ch = alphabet_encod.index(i.lower())
+                str_out += str(alphabet[ch])
     print(str_out)
