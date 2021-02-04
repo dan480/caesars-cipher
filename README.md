@@ -17,9 +17,13 @@ Using
 
 ***
 To use the program, you must specify the name of the operation and pass a string.
+---
     python main.py encoding your_text
+---
 or
+---
     python main.py decoding your_code
+---
 ***
 
 
