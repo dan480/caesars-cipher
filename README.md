@@ -1,5 +1,8 @@
 Caesar cipher
 =============
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dan480/caesars-cipher/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dan480/caesars-cipher/?branch=master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/dan480/caesars-cipher/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+[![Build Status](https://scrutinizer-ci.com/g/dan480/caesars-cipher/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dan480/caesars-cipher/build-status/master)
 
 
 Description
@@ -21,24 +24,14 @@ To use the program, you must specify the name of the operation and pass a string
 For encoding:
 ***
     python main.py encoding one_word
----
-***
     python main.py -e one_word
----
-***
     python main.py encoding "your_text"
----
-***
+***    
 For decoding:
 ***
     python main.py decoding one_word
----
-***
     python main.py -d one_word
----
-***
     python main.py decoding "your_text"
----
 ***
 
 
