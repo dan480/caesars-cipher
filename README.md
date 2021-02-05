@@ -30,7 +30,7 @@ File name       | Content
 data/           | Directory with files with alphabets
 src/            | Directory with files with functions
 test/           | Directory with test files
-.gitignore      | Hiding files and folders from Git version control
+.gitignore      | Hiding files and folders from Git version controltox
 decoding.py     | Data decoding module
 encoding.py     | Data encoding module
 main.py         | Running the program
