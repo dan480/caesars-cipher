@@ -28,10 +28,13 @@ For decoding:
 File name       | Content
 ----------------|--------------------------------------
 data/           | Directory with files with alphabets
+src/            | Directory with files with functions
 test/           | Directory with test files
+.gitignore      | Hiding files and folders from Git version control
 decoding.py     | Data decoding module
 encoding.py     | Data encoding module
 main.py         | Running the program
+test_main.py    | Test
 tox.ini         | Auto test configuration file
 
 What's next
