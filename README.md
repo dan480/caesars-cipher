@@ -33,7 +33,6 @@ decoding.py     | Data decoding module
 encoding.py     | Data encoding module
 main.py         | Running the program
 tox.ini         | Auto test configuration file
-.travis.yml     | Travis-CI
 
 What's next
 -----------
