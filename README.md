@@ -1,5 +1,11 @@
 Caesar cipher
 =============
+[![Build Status](https://travis-ci.com/dan480/caesars-cipher.svg?branch=master)](https://travis-ci.com/dan480/caesars-cipher)
+
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dan480/caesars-cipher/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dan480/caesars-cipher/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/dan480/caesars-cipher/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/dan480/caesars-cipher/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/dan480/caesars-cipher/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dan480/caesars-cipher/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/dan480/caesars-cipher/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
 Description
 -----------
@@ -24,6 +30,8 @@ For decoding:
     python main.py -d one_word
     python main.py decoding "your_text"
 
+Project structure
+---
 
 File name       | Content
 ----------------|--------------------------------------
