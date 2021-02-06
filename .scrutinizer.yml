@@ -1,0 +1,22 @@
+checks:
+    python:
+        code_rating: true
+        duplicate_code: true
+
+build:
+  nodes:
+    coverage:
+      tests:
+        override:
+          - command: './run-tests.sh'
+            coverage:
+              file: '.coverage'
+              config_file: '.coveragerc'
+              format: 'py-cc'
+    analysis:
+      tests:
+        override:
+          - py-scrutinizer-run
+  tests:
+    override:
+      - pylint-run [file|module_or_package]
