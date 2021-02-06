@@ -15,20 +15,17 @@ The encoding and decoding uses a standard 3-character left shift.
 This method was used by Julius Caesar himself.
 ***
 
-Using
+Usage
 -----
 To use the program, you must specify the name of the operation and pass a string.
 ***
-For encoding:
----
-    python main.py encoding one_word
-    python main.py -e one_word
-    python main.py encoding "your_text"   
-For decoding:
----
-    python main.py decoding one_word
-    python main.py -d one_word
-    python main.py decoding "your_text"
+    Usage:
+
+    pipreqs [options] <>
+    
+    Options:
+    -e, encoding        For encoding
+    -d, decoding        For decoding
 
 Project structure
 ---
