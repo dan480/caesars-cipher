@@ -20,4 +20,4 @@ def encoding_func(string, alphabet, key):
             else:
                 ch = alphabet.index(letter.lower())
                 str_out += str(alphabet_encode[ch])
-    print(str_out)
+    return str_out

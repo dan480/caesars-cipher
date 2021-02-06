@@ -44,6 +44,11 @@ for a_list in alphabet_list:
         alphabet = a_list
         break
 
+
+def main():
+    pass
+
+
 # The program logic that determines the correspondence of the input parameters and runs the code.
 if len(sys.argv) <= 2:
     print("Missing parameters!")
@@ -63,3 +68,5 @@ else:
             print("Error. Unknown parameter'{}'".format(param_name))
             sys.exit(1)
 
+if __name__ == '__main__':
+    main()
