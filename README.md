@@ -31,11 +31,13 @@ File name       | Content
 data/           | Directory with files with alphabets
 src/            | Directory with files with functions
 test/           | Directory with test files
-.gitignore      | Hiding files and folders from Git version controltox
+.gitignore      | Hiding files and folders from Git
+.travis.yml     | Description of Travis-ci options
+cipher.py       | Data processing and output module
 decoding.py     | Data decoding module
 encoding.py     | Data encoding module
 main.py         | Running the program
-test_main.py    | Test
+test_*.py       | Tests
 tox.ini         | Auto test configuration file
 
 What's next
