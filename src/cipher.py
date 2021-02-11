@@ -7,9 +7,15 @@ import argparse
 
 
 def get_input():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("action", type=str)
-    parser.add_argument("string", action="extend", nargs="+", type=str)
+    parser = argparse.ArgumentParser(description="Process the string.")
+    parser.add_argument("action", type=str, help="Choosing a function")
+    parser.add_argument(
+        "string",
+        action="extend",
+        nargs="+",
+        type=str,
+        help="Get a string for processing",
+    )
     args = parser.parse_args()
     letter = args.string[0]
     param = vars(args)
