@@ -16,11 +16,11 @@ To use the program, you must specify the name of the operation and pass a string
 ***
     Usage:
 
-    pipreqs [options] <>
+    python [options] <your_text>
     
     Options:
-    -e, encoding        For encoding
-    -d, decoding        For decoding
+    -e, encode        For encoding
+    -d, decode        For decoding
 
 Project structure
 ---

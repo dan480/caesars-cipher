@@ -7,9 +7,9 @@ Encodes text by shifting the list with the original alphabet by 2 steps to the l
 """
 
 
-def encoding_func(string, alphabet, key):
+def encoding_func(string, alphabet, key=-2):
     alphabet_encode = alphabet[key:] + alphabet[:key]
-    str_out = ''
+    str_out = ""
     for letter in string:
         if letter.lower() not in alphabet:
             str_out += letter
@@ -21,3 +21,7 @@ def encoding_func(string, alphabet, key):
                 ch = alphabet.index(letter.lower())
                 str_out += str(alphabet_encode[ch])
     return str_out
+
+
+if __name__ == "__main__":
+    pass
