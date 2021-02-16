@@ -7,7 +7,7 @@ from src.decoding import decoding_func
 from src.encoding import encoding_func
 
 
-if __name__ == "__main__":
+def main():
     string = get_input()[0].get("string")
     string = " ".join(string)
     letter = get_input()[1]
@@ -19,3 +19,7 @@ if __name__ == "__main__":
         print(decoding_func(string, alphabet, key=2))
     else:
         print(f"{action} function does not exist")
+
+
+if __name__ == "__main__":
+    main()

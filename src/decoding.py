@@ -9,15 +9,18 @@ Decodes text by shifting the list with the original alphabet by 2 steps to the r
 
 def decoding_func(string, alphabet, key):
     alphabet_encode = alphabet[key:] + alphabet[:key]  # list offset
-    str_out = ''
+    str_out = ""
     for letter in string:
         if letter.lower() not in alphabet:
             str_out += letter
         else:
+            ch = alphabet_encode.index(letter.lower())
             if letter.isupper():
-                ch = alphabet_encode.index(letter.lower())
                 str_out += str(alphabet[ch]).upper()
             else:
-                ch = alphabet_encode.index(letter.lower())
                 str_out += str(alphabet[ch])
-    print(str_out)
+    return str_out
+
+
+if __name__ == "__main__":
+    pass
