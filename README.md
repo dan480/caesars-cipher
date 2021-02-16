@@ -1,7 +1,6 @@
 Caesar cipher
 =============
 [![Build Status](https://travis-ci.com/dan480/caesars-cipher.svg?branch=master)](https://travis-ci.com/dan480/caesars-cipher)
-[![codecov](https://codecov.io/gh/dan480/caesars-cipher/branch/master/graph/badge.svg?token=JFB9LHQR83)](https://codecov.io/gh/dan480/caesars-cipher)
 
 Description
 -----------
