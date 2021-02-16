@@ -1,6 +1,7 @@
 Caesar cipher
 =============
 [![Build Status](https://travis-ci.com/dan480/caesars-cipher.svg?branch=master)](https://travis-ci.com/dan480/caesars-cipher)
+[![Coverage Status](https://coveralls.io/repos/github/dan480/caesars-cipher/badge.svg)](https://coveralls.io/github/dan480/caesars-cipher)
 
 Description
 -----------
