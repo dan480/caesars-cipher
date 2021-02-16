@@ -8,17 +8,18 @@ Encodes text by shifting the list with the original alphabet by 2 steps to the l
 
 
 def encoding_func(string, alphabet, key=-2):
+    if string[0].lower() not in alphabet:
+        raise ValueError("The argument has an inappropriate value")
     alphabet_encode = alphabet[key:] + alphabet[:key]
     str_out = ""
     for letter in string:
         if letter.lower() not in alphabet:
             str_out += letter
         else:
+            ch = alphabet.index(letter.lower())
             if letter.isupper():
-                ch = alphabet.index(letter.lower())
                 str_out += str(alphabet_encode[ch]).upper()
             else:
-                ch = alphabet.index(letter.lower())
                 str_out += str(alphabet_encode[ch])
     return str_out
 

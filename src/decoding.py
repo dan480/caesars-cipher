@@ -7,7 +7,9 @@ Decodes text by shifting the list with the original alphabet by 2 steps to the r
 """
 
 
-def decoding_func(string, alphabet, key):
+def decoding_func(string, alphabet, key=-2):
+    if string[0].lower() not in alphabet:
+        raise ValueError("The argument has an inappropriate value")
     alphabet_encode = alphabet[key:] + alphabet[:key]  # list offset
     str_out = ""
     for letter in string:

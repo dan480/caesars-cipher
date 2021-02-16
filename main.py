@@ -14,9 +14,9 @@ def main():
     action = get_input()[0].get("action")
     alphabet = select_alphabet(letter)
     if action in ["e", "encoding"]:
-        print(encoding_func(string, alphabet, key=-2))
+        print(encoding_func(string, alphabet, -2))
     elif action in ["d", "decoding"]:
-        print(decoding_func(string, alphabet, key=2))
+        print(decoding_func(string, alphabet, -2))
     else:
         print(f"{action} function does not exist")
 
