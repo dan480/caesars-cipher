@@ -7,7 +7,7 @@ Encodes text by shifting the list with the original alphabet by 2 steps to the l
 """
 
 
-def encoding_func(string, alphabet, key=-2):
+def encoding_func(string, alphabet, key):
     if string[0].lower() not in alphabet:
         raise ValueError("The argument has an inappropriate value")
     alphabet_encode = alphabet[key:] + alphabet[:key]
