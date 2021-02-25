@@ -19,10 +19,12 @@ def get_input():
     args = parser.parse_args()
     letter = args.string[0]
     param = vars(args)
-    return param, letter
+    return letter, param
 
 
 def select_alphabet(string):
+    if string is int:
+        raise TypeError("The argument is of an invalid type.")
     files_list = []
     alphabet_list = []
     # We get a list of files from the data/
