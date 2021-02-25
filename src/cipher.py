@@ -33,7 +33,7 @@ def select_alphabet(string):
     # We write the alphabet obtained from the file into the list.
     for filename_alphabet in files_list:
         alphabet_temp = []
-        with open("data/" + filename_alphabet, newline="") as f:
+        with open("data/" + filename_alphabet, "r") as f:
             reader = csv.reader(f)
             for row in reader:
                 alphabet_temp.extend(row)
