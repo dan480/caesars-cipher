@@ -6,7 +6,7 @@ Description
 -----------
 ***
 The Caesar Cipher program is designed to encode / decode text. 
-The encoding and decoding uses a standard 3-character left shift. 
+The encoding and decoding uses a standard 2-character left shift. 
 This method was used by Julius Caesar himself.
 ***
 
@@ -21,23 +21,29 @@ To use the program, you must specify the name of the operation and pass a string
     Options:
     e, encode        For encoding
     d, decode        For decoding
+    
+    <your_text>      The program supports the English 
+                     and Russian alphabets.
+                     The entered text must be typed in 
+                     one language.
+                     
 
 Project structure
 ---
 
-File name       | Content
-----------------|--------------------------------------
-data/           | Directory with files with alphabets
-src/            | Directory with files with functions
-test/           | Directory with test files
-.gitignore      | Hiding files and folders from Git
-.travis.yml     | Description of Travis-ci options
-cipher.py       | Data processing and output module
-decoding.py     | Data decoding module
-encoding.py     | Data encoding module
-main.py         | Running the program
-test_*.py       | Tests
-tox.ini         | Auto test configuration file
+File name          | Content
+-------------------|--------------------------------------
+data/              | Directory with files with alphabets
+src/               | Directory with files with functions
+test/              | Directory with test files
+.gitignore         | Hiding files and folders from Git
+.travis.yml        | Description of Travis-ci options
+select_alphabet.py | Alphabet selection module based on input data
+decoding.py        | Data decoding module
+encoding.py        | Data encoding module
+main.py            | Running the program
+test_*.py          | Tests
+tox.ini            | Auto test configuration file
 
 What's next
 -----------
