@@ -9,8 +9,8 @@ Decodes text by shifting the list with the original alphabet by 2 steps to the r
 
 def decoding_func(string, alphabet, key):
     # Check the string for a valid value.
-    for char in string.lower():
-        if char.isalpha() and char not in alphabet:
+    for char in string:
+        if char.isalpha() and char.lower() not in alphabet:
             raise ValueError("The argument has an inappropriate value")
     # # We get a new dictionary by shifting by a given step.
     alphabet_encode = alphabet[key:] + alphabet[:key]  # list offset
