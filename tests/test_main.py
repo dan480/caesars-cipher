@@ -1,14 +1,23 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-import unittest
 import main
 import os
+import unittest
 
 
-# Test cases to test 'encoding' methods
+# Test cases to test 'main.py' file
 class TestMain(unittest.TestCase):
-    def test_main(self):
-        result = os.system("python main.py")
-        self.assertEqual(result, 2)
-        # now check that the script's output is what you expect
+    # check that the script output matches your expectations
+    def test_main_encode(self):
+        result = os.system("python main.py e abc")
+        self.assertEqual(result, 0)
+
+    # check that the script output matches your expectations
+    def test_main_decode(self):
+        result = os.system("python main.py d abc")
+        self.assertEqual(result, 0)
+
+
+if __name__ == "__main__":
+    unittest.main()

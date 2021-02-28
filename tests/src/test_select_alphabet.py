@@ -3,7 +3,7 @@
 
 import argparse
 import unittest
-from src.cipher import get_input, select_alphabet
+from src.select_alphabet import get_input, select_alphabet
 
 
 # Test cases to test 'encoding' methods
