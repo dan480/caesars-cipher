@@ -3,26 +3,15 @@
 
 import csv
 import os
-import argparse
 
-
-def get_input():
-    parser = argparse.ArgumentParser(description="Process the string.")
-    parser.add_argument("action", type=str, help="Choosing a function")
-    parser.add_argument(
-        "string",
-        action="extend",
-        nargs="+",
-        type=str,
-        help="Get a string for processing",
-    )
-    args = parser.parse_args()
-    letter = args.string[0]
-    param = vars(args)
-    return letter, param
+"""
+The module is designed to select the alphabet.
+Based on the data received from the command line.
+"""
 
 
 def select_alphabet(string):
+    # Checking for the validity of the input data type.
     if string is int:
         raise TypeError("The argument is of an invalid type.")
     files_list = []
