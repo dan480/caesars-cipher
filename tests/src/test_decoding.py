@@ -5,7 +5,7 @@ import unittest
 from src.decoding import decoding_func
 from src.select_alphabet import select_alphabet
 
-alphabet = select_alphabet("w")
+alphabet = select_alphabet(r"w")
 key = 2
 
 
