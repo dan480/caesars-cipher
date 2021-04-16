@@ -8,6 +8,7 @@ Decodes text by shifting the list with the original alphabet by 2 steps to the r
 
 
 def decoding_func(string, alphabet, key):
+    # TODO: Add doc string
     # Check the string for a valid value.
     for char in string:
         if char.isalpha() and char.lower() not in alphabet:
@@ -25,8 +26,5 @@ def decoding_func(string, alphabet, key):
                 str_out += str(alphabet[ch]).upper()
             else:
                 str_out += str(alphabet[ch])
+
     return str_out
-
-
-if __name__ == "__main__":
-    pass
